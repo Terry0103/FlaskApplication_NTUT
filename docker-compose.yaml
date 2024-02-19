@@ -1,0 +1,8 @@
+services:
+  app:
+    build: .
+    container_name: flask-app-tutor
+    ports:
+      - 8080:5000
+    volumes:
+      - .:/app
